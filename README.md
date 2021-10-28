@@ -68,6 +68,10 @@ A list of useful CMD Commands that you can use on windows for file management an
       <td>Make a bunch of incrementing folders called "Folder #" in the current directory. /L allows you to do ranges(start, step, end)</td>
     </tr>
     <tr>
+      <td>FOR /L %I in (0,1,10) DO echo "FILE %I" > "File %I.txt"</td>
+      <td>Create an incrementing list of text files and Write FILE # into each file.</td>
+    </tr>
+    <tr>
       <td>FOR /D %d in (*) DO mkdir "%d/New Folder"</td>
       <td>Make "New Folder" in all folders of current directory. You can change the (*) to some other format to select only specific files. For example (iot-*) folders that start with "iot-". You need the /D to loop through the folders</td>
     </tr>
