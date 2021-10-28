@@ -24,7 +24,11 @@ A list of useful CMD Commands that you can use on windows for file management an
     <tr>
       <td>move [file_path] [move to folder path]</td>
       <td>move a file to some folder</td>
-    </tr>    
+    </tr>
+    <tr>
+      <td>ren [old_filename] [new_filename]</td>
+      <td>move a file to some folder</td>
+    </tr>   
   </table>
 
 ## Viewing Folder Commands
