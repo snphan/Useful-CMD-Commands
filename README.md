@@ -4,6 +4,7 @@ A list of useful CMD Commands that you can use on windows for file management an
 
 
 ## Basic Commands
+Note that if your paths have spaces in them you need to encapsulate it with ONLY " ". For example if you have a path like New Folder 1/New Folder 2, you will need to input it as "New Folder 1/New Folder 2", or else CMD will treat the spaces as separate commands.
   <table>
     <tr>
       <th>Command</th>
@@ -28,6 +29,10 @@ A list of useful CMD Commands that you can use on windows for file management an
     <tr>
       <td>ren [old_filename] [new_filename]</td>
       <td>move a file to some folder</td>
+    </tr>   
+    <tr>
+      <td>mkdir [folder_name]</td>
+      <td>Make a new dir called "folder_name" in the current directory</td>
     </tr>   
     <tr>
       <td>cd [folder_path]</td>
