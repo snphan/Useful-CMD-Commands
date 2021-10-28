@@ -57,7 +57,7 @@ A list of useful CMD Commands that you can use on windows for file management an
 
 
 ## Useful For Loops
-
+Note that the %[letter] can be any letter. It just represents a variable in the CMD.
   <table>
     <tr>
       <th>Command</th>
