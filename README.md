@@ -1,6 +1,6 @@
 # Useful CMD Commands
 
-A list of useful CMD Commands that you can use on windows for file management and such. If you ever get stuck just do "help <Command>" without the quotations. 
+A list of useful CMD Commands that you can use on windows for file management and such. If you ever get stuck just do "help [Command]" without the quotations. 
 
 
 ## Basic Commands
@@ -57,6 +57,7 @@ A list of useful CMD Commands that you can use on windows for file management an
 
 
 ## Useful For Loops
+
   <table>
     <tr>
       <th>Command</th>
