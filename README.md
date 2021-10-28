@@ -49,6 +49,10 @@ A list of useful CMD Commands that you can use on windows for file management an
       <td>dir</td>
       <td>Shows the files and folders</td>
     </tr>
+    <tr>
+      <td>dir /b /a-d</td>
+      <td>List all of the files in the current directory</td>
+    </tr>
   </table>
 
 
@@ -64,6 +68,18 @@ A list of useful CMD Commands that you can use on windows for file management an
     </tr>
     <tr>
       <td>FOR /D %d in (*) DO mkdir "%d/New Folder"</td>
-      <td>Make "New Folder" in all folders of current directory. You can change the (*) to some other format to select only specific files. For example (iot-*) folders that start with "iot-"</td>
+      <td>Make "New Folder" in all folders of current directory. You can change the (*) to some other format to select only specific files. For example (iot-*) folders that start with "iot-". You need the /D to loop through the folders</td>
+    </tr>
+    <tr>
+      <td>FOR %a in (*.pdf) DO ren "%a" "0%a"</td>
+      <td>Add a leading 0 to all of the files in the folder with .pdf extension</td>
+    </tr>
+    <tr>
+      <td>FOR %a in (*.txt) DO ren "%~a" "%~na version 1%~xa"</td>
+      <td>Add "version 1" right before .txt</td>
+    </tr>
+    <tr>
+      <td>FOR /D %a in (*) DO FOR %b in ("%a/*.csv") DO copy "%a\%b" "..\New folder"</td>
+      <td>Copy all .csvs from child directories to "New Folder" in the parent directory</td>
     </tr>
   </table>
